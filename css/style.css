@@ -15,6 +15,14 @@ h2 {
     font-size: 39.06px;
 }
 
+h3 {
+  font-size: 31.25px;
+}
+
+h4 {
+  font-size: 25.00px;
+}
+
 * { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
 .clr{clear:both;}
 body {background-color:#ddd;}
@@ -116,11 +124,18 @@ body {background-color:#ddd;}
 }
 
 .mainimg {
+  display: block;
   width: 300px;
   height: 300px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .mainimg img {
   width: 100%;
   height: auto;
+}
+
+.header {
+  text-align: center;
 }
