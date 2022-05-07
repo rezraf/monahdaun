@@ -1,27 +1,37 @@
 @import url(https://fonts.googleapis.com/css?family=Oxygen+Mono);
 
+html {font-size: 100%;} /*16px*/
+
 body {
-    font-family: 'Oxygen Mono', sans-serif;
+    font-family: 'Oxygen Mono', monospace;
     background-color: black;
-    text-align: center;
+    line-height: 1.75;
+    color: #000000;
 }
+
+h1, h2, h3, h4, h5 {
+  margin: 3rem 0 1.38rem;
+  font-family: 'Oxygen Mono', monospace;
+  font-weight: 400;
+  line-height: 1.3;
+}
+
+p {margin-bottom: 1rem;}
 
 h1 {
-    font-family: 'Oxygen Mono', sans-serif;
-    font-size: 48.83px;
+  margin-top: 0;
+  font-size: 3.052rem;
 }
 
-h2 {
-    font-size: 39.06px;
-}
+h2 {font-size: 2.441rem;}
 
-h3 {
-  font-size: 31.25px;
-}
+h3 {font-size: 1.953rem;}
 
-h4 {
-  font-size: 25.00px;
-}
+h4 {font-size: 1.563rem;}
+
+h5 {font-size: 1.25rem;}
+
+small, .text_small {font-size: 0.8rem;}
 
 * { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
 .clr{clear:both;}
@@ -139,3 +149,12 @@ body {background-color:#ddd;}
 .header {
   text-align: center;
 }
+
+.spell {
+ font-weight: bold;
+}
+
+.leftimg {
+  float: left; /* Выравнивание по левому краю */
+  margin: 7px 7px 7px 0; /* Отступы вокруг картинки */
+ }
